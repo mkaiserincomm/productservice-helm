@@ -8,7 +8,7 @@ image:
   repository: docker.maven.incomm.com/mgkaiser/productservice
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "Build-37"
+  tag: "Build-1"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -34,7 +34,7 @@ podAnnotations: {}
 
 podLabels:
   app: productservice
-  version: "Build-37"  
+  version: "Build-1"  
 
 podSecurityContext: {}
   # fsGroup: 2000
