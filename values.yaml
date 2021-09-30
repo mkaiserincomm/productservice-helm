@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: mgkaiser/productservice
+  repository: docker.maven.incomm.com/mgkaiser/productservice
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
@@ -57,7 +57,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: productservice.kaiser.guru
+    - host: productservice.sigcntnr.incomm.com
       paths:
       - path: 
         backend:
