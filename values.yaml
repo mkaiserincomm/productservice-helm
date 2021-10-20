@@ -13,6 +13,9 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
+databaseSecretName: "dbnorthwindconnection-product"
+databaseConnectString: ""
+sharedSecretsEnabled: false
 
 environment: Development
 log:
