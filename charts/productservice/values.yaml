@@ -8,7 +8,7 @@ image:
   repository: mgkaiser/productservice
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "Build-3"
+  tag: "Build-4"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -37,7 +37,7 @@ podAnnotations: {}
 
 podLabels:
   app: productservice
-  version: "Build-3"  
+  version: "Build-4"  
 
 podSecurityContext: {}
   # fsGroup: 2000
