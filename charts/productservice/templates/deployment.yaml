@@ -47,7 +47,7 @@ spec:
             - name: DOTNET_ConnectionStrings__NorthwindContext
               valueFrom:
                 secretKeyRef:
-                  name:  {{ .Values.databaseSecretName }}
+                  name: dbnorthwindconnection
                   key: connectionstring
           ports:
             - name: http
